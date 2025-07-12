@@ -3,7 +3,7 @@ package main
 type WeatherCondition int
 
 const (
-	Clear WeatherCondition = iota
+	Clear WeatherCondition = iota + 1
 	Rain
 	HeavyRain
 	Snow
